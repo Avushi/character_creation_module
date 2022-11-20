@@ -79,7 +79,7 @@ def choice_char_class() -> str:
     return char_class
 
 
-def main() -> None:
+if __name__ == '__main__':
     run_screensaver()
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
@@ -92,4 +92,3 @@ def main() -> None:
     print(start_training(char_name, char_class))
 
 main()
- 
